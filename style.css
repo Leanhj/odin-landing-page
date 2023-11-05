@@ -12,6 +12,8 @@ head {
 }
 
 .image img {
+    width: auto;
+    height: auto;
     max-width: 600px;
     max-height: 300px;
 }
@@ -54,7 +56,7 @@ button {
 .main {
     padding: 100px 0;
     display: flex;
-    gap: 16px;
+    gap: 32px;
 }
 
 .header {
@@ -98,13 +100,27 @@ button {
 .four-imgs {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 16px;
+    /* align-items: center; */
+    gap: 32px;
 }
 
-.four-imgs div {
+/* .four-imgs div {
     margin: 8px 0;
     text-align: center;
+} */
+
+/* .img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.img-text {
+    max-width: 150px;
+    margin-top: 8px;
+    text-align: center;
+    color: #1F2937;
 }
 
 .quote {
@@ -119,6 +135,7 @@ button {
 .quote-text {
     font-style: italic;
     font-weight: 0;
+    margin: 8px 0;
 }
 
 .quote-author {
