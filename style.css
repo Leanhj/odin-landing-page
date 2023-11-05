@@ -109,4 +109,19 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 0;
+}
+
+.quote-author {
+    margin-left: auto;
+    font-weight: bold;
 }
