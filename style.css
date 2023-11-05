@@ -125,3 +125,40 @@ button {
     margin-left: auto;
     font-weight: bold;
 }
+
+.subscription {
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.subs-action {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: stretch;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.subs-caption {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: #F9FAF8;
+    gap: 8px;
+}
+
+.caption-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.subs-button {
+    margin-left: auto;
+}
+
+.subs-button button {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    color: white;
+}
